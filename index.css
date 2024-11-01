@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500pt;
+    background-color: black;
+}
+
+.profile-picture {
+    max-width: 300px;
+    box-shadow: 2px 4px 8px 2px rgba(105, 169, 226, 0.5);
+    text-align: center;
+
+}
+
+.profile-picture h3 {
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+.image_profile {
+    width: 100%;
+    margin: auto;
+}
+
+.self-details {
+    font-size: small;
+    color: #9b9393;
+    padding: 2px;
+}
+
+.company-name {
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 200;
+    color: cornflowerblue;
+    text-shadow: 0 2px 4px;
+}
+
+a:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
